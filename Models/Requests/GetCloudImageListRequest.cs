@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace DivoomControl.Models.Requests
 {
-    public class GetLikedImageListRequest
+    public class GetCloudImageListRequest
     {
         [JsonPropertyName("DeviceId")]
         public int DeviceId { get; set; }
@@ -14,7 +14,7 @@ namespace DivoomControl.Models.Requests
         [JsonPropertyName("Page")]
         public int Page { get; set; }
 
-        public GetLikedImageListRequest(DeviceInformation device, int Page = 1)
+        public GetCloudImageListRequest(DeviceInformation device, int Page = 1)
         {
             this.DeviceId = device.DeviceId;
             this.DeviceMac = device.DeviceMac;

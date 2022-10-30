@@ -2,11 +2,11 @@
 
 namespace DivoomControl.Models.Responses
 {
-    public  class GetLikedImageListResponse
+    public  class GetCloudImageListResponse
     {
         public int ReturnCode { get; set; }
         public string ReturnMessage { get; set; }
-        public List<LikedImage> ImgList { get; set; }
+        public List<CloudImage> ImgList { get; set; }
         public int DeviceId { get; set; }
     }
 }
