@@ -5,6 +5,15 @@
     <Nullable>enable</Nullable>
     <Title>Divoom Control</Title>
     <Authors>Neta</Authors>
+    <RepositoryUrl>https://github.com/MrNeta/DivoomControl</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Divoom;Pixoo;Pixoo64</PackageTags>
+    <AssemblyVersion>0.0.2</AssemblyVersion>
+    <FileVersion>0.0.2</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>0.0.2</Version>
+    <PackageReleaseNotes>It is now possible to turn the display on and off. Furthermore, all available device settings can now be queried.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

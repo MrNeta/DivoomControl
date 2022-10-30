@@ -44,6 +44,34 @@ namespace DivoomControl.Models
             return new List<LikedImage>();
         }
 
+        public async Task setDisplayStatus(bool displayOn)
+        {
+            var url = $"http://{Information.DevicePrivateIp}:80/post";
+            await client.PostAsync(url, new StringContent("{\"Command\":\"Channel/OnOffScreen\",\"OnOff\": " + (displayOn ? 1 : 0) + "}", Encoding.UTF8, "application/json"));
+        }
+
+        public async Task<bool> getDisplayStatus()
+        {
+            var settings = await getDeviceSettings();
+            if (settings == null)
+            {
+                return false;
+            }
+            return settings.LightSwitch == 1;
+        }
+
+        public async Task<SettingsResponse?> getDeviceSettings()
+        {
+            var url = $"http://{Information.DevicePrivateIp}:80/post";
+            HttpResponseMessage response = await client.PostAsync(url, new StringContent("{\"Command\":\"Channel/GetAllConf\"}", Encoding.UTF8, "application/json"));
+            if (response.IsSuccessStatusCode)
+            {
+                var settingsResponse = await response.Content.ReadFromJsonAsync<SettingsResponse>();
+                return settingsResponse;
+            }
+            return null;
+        }
+
         public string getLocalIp()
         {
             return Information.DevicePrivateIp;
