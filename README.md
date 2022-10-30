@@ -10,15 +10,15 @@ This library simplifies communication with a Divoom device by making simple API 
 ## Example
 This example shows a random image from the favorites list on the display
 ```csharp
-var items = await DivoomControl.Main.getAvailableDevices();
+var devices = await DivoomControl.Main.getAvailableDevices();
 var random = new Random();
-items.ForEach(async item =>
+devices.ForEach(async device =>
 {
-    Console.WriteLine(item);
-    var images = await item.getLikedImagesAsync();
+    Console.WriteLine(device);
+    var images = await device.getLikedImagesAsync();
     if (images.Count > 0)
     {
-        await item.setImageFromCloudAsync(images[random.Next(0, images.Count - 1)].FileId);
+        await device.setImageFromCloudAsync(images[random.Next(0, images.Count - 1)].FileId);
     }
 });
 ```
