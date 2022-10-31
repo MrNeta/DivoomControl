@@ -15,6 +15,7 @@
     <Version>0.0.3</Version>
     <PackageReleaseNotes>Added more api calls</PackageReleaseNotes>
     <Description>This library simplifies communication with a Divoom device by making simple API calls.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
