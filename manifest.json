@@ -1,0 +1,320 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/DivoomControl/DivoomControl/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Enums.DisplayChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Enums.DisplayChannel.html",
+          "hash": "T/N7U1Fi+9cTLCeJoHhuohEDTW3Otqi4zuc6xk69j9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Enums.DisplayStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Enums.DisplayStatus.html",
+          "hash": "RrWj4nQaBw6OkHSf+4EpTAWKkn/ylPLOYgkdNBgGbmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Enums.StopWatchCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Enums.StopWatchCommand.html",
+          "hash": "h0UANaRjY43bfJrRIUyhIOOulnX4Hx8Qw6jaZwJENKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Enums.html",
+          "hash": "Ye0bGGyX9YTKGquTviM+XVjCWbZGHfHvL3JtlOQGpuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Main.html",
+          "hash": "EBx/OJBP0uQOkqwj7ODegfXX2qY7Utd3RL/uBTUUzsw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.CloudImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.CloudImage.html",
+          "hash": "12IkqnmSx/FvWC5nLM/TF3Qx3ev+F4VaTemb36Q2aUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Device.html",
+          "hash": "oed4XR77iuS0ahiYpCKWloCiFhJ7w9hOMZSTQybhXKY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.DeviceInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.DeviceInformation.html",
+          "hash": "0Y8SJp1RjzPnGCEpxSVDT3fE5uNgzknMn6YjmaeGdq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Requests.GetCloudImageListRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Requests.GetCloudImageListRequest.html",
+          "hash": "IYGNRYuoBj8bFu8nb1nvB/aIv8trxvWtgOCVv8Dh5iU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Requests.html",
+          "hash": "FvlOFHLmFP+Y7tsII1mymT7XCTQnZpie+1vgVf3lFgg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Responses.FindDeviceResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Responses.FindDeviceResponse.html",
+          "hash": "0LGNEfb1/j5u5oOrx8jK6Hjjj4vthDTvvuu+sdoX+wQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Responses.GetCloudImageListResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Responses.GetCloudImageListResponse.html",
+          "hash": "Jf1SueEtiOGx8eV2HM9Bv9p+hKJqbAq8QG3SkODiaRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Responses.SettingsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Responses.SettingsResponse.html",
+          "hash": "fj+06Fck4pNdn1FvNu+1AKqBNJjDQLT6NbcbsNk2SWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.Responses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.Responses.html",
+          "hash": "zueaJkkU3fAvtZ7Oxj+JeJNFrfpsN6eU0qirL1iI0oc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.Models.html",
+          "hash": "uD/isL22fx66l/229zgzeeE/jAK/eZgKa+NmjII0cds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DivoomControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DivoomControl.html",
+          "hash": "ZX5iP81EjpvG0gP0nAEBwAIbaBQmP2i+NdutaYSEnJk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "v7r6+wi2ab5PHOu1CRh/tSwnog5vNmM8CHDyz5gw2t0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "HYFaoDdF9NSO/yeeCoUBp3+Che6NXA88lEzn2DM2DE4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "9oX7PkN8Etp2o86kbfPd7b/0XnJyVAi66C/+KExbq2A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "3SOPZQ6iH25Ky+YjCAhY+OdOWY6Ym+ZHA4Tlgom30ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "s+UecGKJLe11K3w4+MJjx6QoiqktkO8teeQG06lk8L0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 16,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
