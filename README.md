@@ -3,7 +3,7 @@ This library simplifies communication with a Divoom device by making simple API 
 
 **Not all interfaces are currently implemented, but this will be added over time**
 
-This library is also available via [Nuget.org](https://www.nuget.org/packages/DivoomControl/).
+[Nuget.org](https://www.nuget.org/packages/DivoomControl/) | [Documentation](https://mrneta.github.io/DivoomControl/)
 
 ## Supported Devices
 - Divoom Pixoo64 (tested)
